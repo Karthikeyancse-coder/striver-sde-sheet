@@ -36,17 +36,11 @@ Every solution is written in **Python** with a focus on:
 
 ---
 
-## 📊 Live Progress Tracker
+## 📊 Progress Tracker
 
 <div align="center">
 
-### Overall Completion — **60%**
-
-![Progress Bar](https://progress-bar.dev/60/?width=500&color=f7a81b&title=Solved)
-
-</div>
-
-<div align="center">
+### Overall Completion — **60%** (115 / 191)
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏁 Total |
 |:---:|:---:|:---:|:---:|
@@ -138,19 +132,12 @@ Each file is named after the problem it solves, with comments explaining the app
 
 ---
 
-## 📅 Daily Progress & Streak
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Karthikeyancse-coder&theme=radical&hide_border=true&background=0D1117" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api?username=Karthikeyancse-coder&show_icons=true&theme=radical&hide_border=true&background=0D1117&count_private=true" width="48%" />
-
-</div>
+## 📅 Daily Progress
 
 I document my daily progress on:
 
 - 💻 **GitHub** — this repository (commit history = my streak log)
-- 💼 **LinkedIn** — [Connect with me](#) <!-- replace # with your LinkedIn profile URL -->
+- 💼 **LinkedIn** — [Karthikeyan M](https://www.linkedin.com/in/karthikeyan-m-s/)
 
 Each update includes:
 - ✅ Problems solved that day
@@ -172,7 +159,7 @@ Each update includes:
 
 If this repository helps you in your DSA journey, consider giving it a ⭐ — it keeps me motivated to stay consistent!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karthikeyan-m-s/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Karthikeyancse-coder)
 
 <br/>
