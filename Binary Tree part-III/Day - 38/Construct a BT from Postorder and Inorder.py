@@ -10,29 +10,30 @@ class TreeNode:
 
 
 class Solution:
-    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
+    def buildTree(self, inorder: List[int], postorder: List[int]) -> Optional[TreeNode]:
+
         inMap  ={ val: i for i,val in  enumerate(inorder)}
-        idx = 0 
+        idx = len(postorder) -1
 
         def dfs(left,right):
             nonlocal idx 
             if left > right:
                 return None
             
-            rootVal = preorder[idx]
-            idx += 1
+            rootVal = postorder[idx]
+            idx -= 1
 
             root = TreeNode(rootVal)
             mid = inMap[rootVal]
 
-            root.left = dfs(left,mid-1)
             root.right = dfs(mid+1,right)
+            root.left = dfs(left,mid-1)
 
             return root
 
         return dfs(0,len(inorder)-1)
 
     
-preorder = [3,9,20,15,7]
+postorder = [9, 15, 7, 20, 3]
 inorder = [9,3,15,20,7]
-print(Solution().buildTree(preorder,inorder))
+print(Solution().buildTree(inorder,postorder))
