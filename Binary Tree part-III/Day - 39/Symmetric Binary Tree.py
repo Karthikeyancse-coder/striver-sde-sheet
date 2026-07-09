@@ -46,7 +46,7 @@ class Solution:
             if left.val != right.val:
                 return False
             
-            return dfs(left.left,right.right) and dfs(right.right,left.left)
+            return dfs(left.left,right.right) and dfs(left.right,right.left)
         
         if not root:
             return True
